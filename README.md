@@ -1,6 +1,6 @@
 # UK TopoJSON, 2014 - 2025
 
-This repo contains scripts and input files to generate a TopoJSON file covering the following geography layers from 2014 up to the present. You can download the [whole TopoJSON file here](https://raw.githubusercontent.com/ONSvisual/uk-topojson/refs/heads/main/output/topo.json), or you can preview and export/download individual geography types in various formats (TopoJSON, GeoJSON or CSV/WKT) [using this tool](https://onsvisual.github.io/uk-topojson).
+This repo contains scripts and input files to generate a TopoJSON file covering the following geography layers from 2014 up to the present. You can download the [whole TopoJSON file here](https://raw.githubusercontent.com/ONSdigital/uk-topojson/refs/heads/main/output/topo.json), or you can preview and export/download individual geography types in various formats (TopoJSON, GeoJSON or CSV/WKT) [using this tool](https://onsdigital.github.io/uk-topojson).
 
 - **uk** United Kingdom (K02)
 - **ctry** Countries (E92, N92, S92, W92)
