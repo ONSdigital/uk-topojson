@@ -30,7 +30,7 @@ const lookup = [];
 let current;
 
 for (let d of data) {
-  // Add 2014 codes for LTLAs and paretns
+  // Add 2014 codes for LTLAs and parents
   let row = {
     uk14cd: "K02000001",
     uk14nm: "United Kingdom",
