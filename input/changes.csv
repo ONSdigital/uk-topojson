@@ -23,8 +23,8 @@ E07000204,St Edmundsbury,E07000245,West Suffolk,merger,2019
 E07000205,Suffolk Coastal,E07000244,East Suffolk,merger,2019
 E07000206,Waveney,E07000244,East Suffolk,merger,2019
 E10000009,Dorset,,,termination,2019
-S12000044,North Lanarkshire,S12000050,North Lanarkshire,new_geo,2019
-S12000046,Glasgow City,S12000049,Glasgow City,new_geo,2019
+S12000044,North Lanarkshire,S12000050,North Lanarkshire,new_code,2019
+S12000046,Glasgow City,S12000049,Glasgow City,new_code,2019
 E07000004,Aylesbury Vale,E06000060,Buckinghamshire,merger,2020
 E07000005,Chiltern,E06000060,Buckinghamshire,merger,2020
 E07000006,South Bucks,E06000060,Buckinghamshire,merger,2020
