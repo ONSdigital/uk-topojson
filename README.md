@@ -44,5 +44,5 @@ If you want to make more complex changes (eg. mergers or terminations of other g
 - The base geometries used are [2016 super generalised boundaries](https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(BDY_LAD)%2C2016) for lower-tier/unitary local authorities.
 - There were no changes in UK local authorities from 2014 to 2016, so it is assumed that the boundaries are valid from 2014 onwards.
 - In 2018 and 2019 minor boundary changes were made to four local authority areas in Scotland. The updates to their GSS codes are included, but the boundaries provided here do not change (the changes would not be discernable at a super-generalised level in any case).
-- In 2018, _Shepway_ was renamed _Folkestone and Hythe_ without a change to its GSS code. Only the newer name is used here.
+- In 2018, _Shepway_ was renamed _Folkestone and Hythe_ without a change to its GSS code. Only the newer name is used here. The same is true for _Sheffield City Region_ combined authority, which was renamed _South Yorkshire_ in 2021.
 - [Carl Baker has created a handy flow chart to let you find out which year your data might be from](https://x.com/CarlBaker/status/1377228274833702919).

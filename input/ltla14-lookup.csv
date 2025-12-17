@@ -271,10 +271,10 @@ E08000012,Liverpool,,,E11000002,Merseyside,E47000004,Liverpool City Region,E1200
 E08000013,St. Helens,,,E11000002,Merseyside,E47000004,Liverpool City Region,E12000002,North West,E92000001,England
 E08000014,Sefton,,,E11000002,Merseyside,E47000004,Liverpool City Region,E12000002,North West,E92000001,England
 E08000015,Wirral,,,E11000002,Merseyside,E47000004,Liverpool City Region,E12000002,North West,E92000001,England
-E08000016,Barnsley,,,E11000003,South Yorkshire,E47000002,Sheffield City Region,E12000003,Yorkshire and The Humber,E92000001,England
-E08000017,Doncaster,,,E11000003,South Yorkshire,E47000002,Sheffield City Region,E12000003,Yorkshire and The Humber,E92000001,England
-E08000018,Rotherham,,,E11000003,South Yorkshire,E47000002,Sheffield City Region,E12000003,Yorkshire and The Humber,E92000001,England
-E08000019,Sheffield,,,E11000003,South Yorkshire,E47000002,Sheffield City Region,E12000003,Yorkshire and The Humber,E92000001,England
+E08000016,Barnsley,,,E11000003,South Yorkshire,E47000002,South Yorkshire,E12000003,Yorkshire and The Humber,E92000001,England
+E08000017,Doncaster,,,E11000003,South Yorkshire,E47000002,South Yorkshire,E12000003,Yorkshire and The Humber,E92000001,England
+E08000018,Rotherham,,,E11000003,South Yorkshire,E47000002,South Yorkshire,E12000003,Yorkshire and The Humber,E92000001,England
+E08000019,Sheffield,,,E11000003,South Yorkshire,E47000002,South Yorkshire,E12000003,Yorkshire and The Humber,E92000001,England
 E08000021,Newcastle upon Tyne,,,E11000007,Tyne and Wear,E47000005,North East,E12000001,North East,E92000001,England
 E08000022,North Tyneside,,,E11000007,Tyne and Wear,E47000005,North East,E12000001,North East,E92000001,England
 E08000023,South Tyneside,,,E11000007,Tyne and Wear,E47000005,North East,E12000001,North East,E92000001,England
