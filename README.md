@@ -11,7 +11,40 @@ This repo contains scripts and input files to generate a TopoJSON file covering 
 - **utla** Upper-tier/unitary authorities (E06, E08, E09, E10, N09, S12, W06)
 - **ltla** Lower-tier/unitary authorities (E06, E08, E07, E09, N09, S12, W06)
 
-The output file contains layers for each of the above geography types. Each area has **areacd** (GSS code) and **areanm** (official name) attributes. Areas that were created or terminated between 2014 and 2025 include a **start** and/or **end** attribute which allow them to be filtered by year.
+## The output format
+
+As noted above, the main output file is in a [TopoJSON format](https://github.com/topojson/topojson), which contains 8 layers. One for each of the above geography types. Each area has ```areacd``` (GSS code) and ```areanm``` (official name) attributes. Areas that were created or terminated between 2014 and 2025 include a ```start``` and/or ```end``` attribute which allow them to be filtered by year (areas without these properties can be assumed to be valid for the entire period).
+
+The TopoJSON file is structured as follows:
+
+```json5
+{
+  "type": "Topology",
+  "arcs": [], // Array of TopoJSON arcs
+  "transform": {}, // Metadata that allows arcs data to be compressed
+  "objects": {
+    // Keyed objects representing each geograpy layer/type
+    [key: string]: { // Geography type, eg. "rgn" or "ltla"
+      "type": "GeometryCollection",
+      "geometries:" [
+        // Array of areas of geography type
+        {
+          "arcs": [], // The arcs (referenced from above) that make up the boundary of a specific area
+          "type": string, // "Polygon" or "MultiPolygon",
+          "properties: {
+            "areacd": string, // GSS code of area
+            "areanm": string, // Official name of area
+            "start": number, // Start year of area (if after 2014), YYYY
+            "end": number, // Last valid year of area (if no longer valid), YYYY
+          }
+        },
+        ...
+      ]
+    },
+    ...
+  }
+}
+```
 
 ## Running the scripts
 
