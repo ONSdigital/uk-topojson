@@ -68,9 +68,18 @@ npm run dev
 
 ## Editing/updating the config
 
-To update geographies for year-on-year mergers of local authorities or terminations of counties, you should only need to edit the **/input/changes.csv** file.
+To update geographies for year-on-year mergers or terminations of geographies, you should only need to edit the **/input/changes.csv** file. The following types of changes can be handled (see ```type``` column in CSV):
 
-If you want to make more complex changes (eg. mergers or terminations of other geographies, or additons of new geography types), you will likely also need to edit **/input/ltla14_lookup.csv**, **/scripts/make-lookup.js**, and possibly other files.
+- **merger** - When two or more areas are merged (eg. new unitary authority)
+- **termination** - When a geography is no longer operative (eg. redundant county council)
+- **new_geo** - When a new geography is created comprising of one or more areas (eg. new combined authority)
+- **new_code** - When a GSS code changes due to a minor boundary change
+
+The ```start``` column in the CSV represents the year that the change comes into operation. Eg. In the case of a merger, the new geography will get this as its start date, and the old merged geographies will get an end date one year prior.
+
+The ```oldcd``` column represents the one or more geographies that are terminated or merged by a change, while the ```newcd``` column represents the geography created (a merger is represented by multiple rows in the CSV). The ```oldnm``` and ```newnm``` columns are included for human readability. They are not actually used in the processing steps.
+
+If you want to make more complex changes (eg. additons of new geography types, splitting of areas, or significant boundary changes), you will likely also need to edit **/input/ltla14_lookup.csv**, **/scripts/make-lookup.js**, and possibly other files.
 
 ## Other notes
 
